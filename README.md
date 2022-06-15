@@ -20,3 +20,5 @@ You can build an image with e.g.
 ```
 VERSION="0.156.0" podman build --build-arg N8N_VERSION=$VERSION -t myn8n:$VERSION .
 ```
+
+We (manually) upload some images on Docker Hub: https://hub.docker.com/r/dvisionlab/n8n-root
